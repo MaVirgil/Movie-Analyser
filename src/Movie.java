@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Movie {
 
     private int year;
@@ -36,24 +34,12 @@ public class Movie {
     }
 
     //--getters--
-    public int getYear() {
-        return this.year;
-    }
-
     public int getRuntime() {
         return this.runtime;
     }
 
     public String getTitle() {
         return this.title;
-    }
-
-    public String getGenre() {
-        return this.genre;
-    }
-
-    public int getPopularity() {
-        return this.popularity;
     }
 
     public boolean getWonAward() {
