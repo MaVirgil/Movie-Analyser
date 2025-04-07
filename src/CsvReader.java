@@ -51,6 +51,10 @@ public class CsvReader implements Closeable{
                 movieList.add(movie);
             }
 
+            if (movieList.isEmpty()) {
+                throw new RuntimeException("No movies found in file!");
+            }
+
 
         } catch (IOException e) {
             throw new RuntimeException(e);
